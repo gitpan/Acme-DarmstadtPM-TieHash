@@ -5,7 +5,7 @@ use warnings;
 
 use Tie::ListKeyedHash;
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 sub TIEHASH{
     my ($class,$code) = @_;
@@ -95,7 +95,7 @@ __END__
 
 =head1 NAME
 
-Tie::Hash:DarmstadtPM - a module that shows that Perl can do all the Ruby things ;-)
+Acme::DarmstadtPM::TieHash - a module that shows that Perl can do all the Ruby things ;-)
 
 =head1 SYNOPSIS
 
@@ -128,5 +128,10 @@ things can be done in Perl, too. So this module is a proof how smart Perl is...
 
 copyright 2006 (c)
 Renee Baecker E<lt>module@renee-baecker.deE<gt>
+
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.6 or,
+at your option, any later version of Perl 5 you may have available.
 
 =cut
