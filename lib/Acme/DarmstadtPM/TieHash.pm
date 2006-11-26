@@ -5,7 +5,7 @@ use warnings;
 
 use Tie::ListKeyedHash;
 
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 sub TIEHASH{
     my ($class,$code) = @_;
@@ -124,7 +124,7 @@ Test
 Ronnie Neumann sent a mail to the mailinglist with some good Ruby stuff. I said, that all these
 things can be done in Perl, too. So this module is a proof how smart Perl is...
 
-=head1 AUTHOR
+=head1 AUTHOR AND LICENSE
 
 copyright 2006 (c)
 Renee Baecker E<lt>module@renee-baecker.deE<gt>

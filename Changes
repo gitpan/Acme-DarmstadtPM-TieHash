@@ -6,3 +6,6 @@ Revision history for Perl extension Tie::Hash::DarmstadtPM.
 
 0.02  Thu Nov 23 15:48:37 2006
         - Minor improvements on documentation
+
+0.03  Sun Nov 26 12:40:33 2006
+      - bugfix: manifest.t
